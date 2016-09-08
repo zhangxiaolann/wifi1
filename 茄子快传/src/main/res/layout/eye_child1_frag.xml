@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.Eye_child1_frag">
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swip1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <tools.LoadListView
+            android:id="@+id/loadlistview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#ffffff"></tools.LoadListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3b93ff</color>
+    <color name="colorPrimaryDark">#3a92fe</color>
+    <color name="colorAccent">#4096ff</color>
+
+    <color name="tabIndicatorColor">#03a9f4</color>
+    <color name="gray">#03a9f4</color>
+    <color name="tabTextColor">#bbbbbb</color>
+
+    <color name="red">#d9d9d9</color>
+    <color name="transparent">#d9d9d9</color>
+    <drawable name="transparent_background">#00000000</drawable>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/only/only.iml" filepath="$PROJECT_DIR$/only/only.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wifi.iml" filepath="$PROJECT_DIR$/wifi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wifi测试/wifi测试.iml" filepath="$PROJECT_DIR$/wifi测试/wifi测试.iml" />
+      <module fileurl="file://$PROJECT_DIR$/茄子快传/茄子快传.iml" filepath="$PROJECT_DIR$/茄子快传/茄子快传.iml" />
+    </modules>
+  </component>
+</project>

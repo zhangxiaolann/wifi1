@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wificonnect.qiezhi.is_Sending">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title_bar" />
+
+    <tools.RadarView
+        android:id="@+id/RadarView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/text_is_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RadarView"
+        android:gravity="center"
+        android:text="正在扫描请稍后..."
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_is_connect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bbbstyle"
+        android:text="发送文件"
+        android:textColor="#ffff"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/research_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bbbstyle"
+        android:text="扫码连接"
+        android:textColor="#ffff" />
+</RelativeLayout>

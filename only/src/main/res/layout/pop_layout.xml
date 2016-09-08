@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_leida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.5dp"
+            android:drawableLeft="@drawable/icon_leida"
+            android:drawablePadding="10dp"
+            android:text="雷达"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_saomiao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_leida"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/icon_saomiao"
+            android:drawablePadding="10dp"
+            android:text="扫一扫"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_guanwang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_saomiao"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/icon_wangzhan"
+            android:drawablePadding="10dp"
+            android:text="访问官网"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_guanwang"
+            android:layout_marginBottom="7.5dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/icon_about"
+            android:drawablePadding="10dp"
+            android:text="关于梦"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

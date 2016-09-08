@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/llnear_anima"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:text="按时发的撒大大说"
+                    android:textColor="@drawable/press_text_misss"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:text="微信精选"
+                        android:textSize="10dp" />
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text=""
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/iv"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

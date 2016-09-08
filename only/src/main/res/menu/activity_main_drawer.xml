@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_toutiao"
+            android:checked="true"
+            android:icon="@mipmap/item1"
+            android:title="@string/new_music"/>
+        <item
+            android:id="@+id/nav_wechat"
+            android:icon="@mipmap/item2"
+            android:title="@string/wechat_select"/>
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@mipmap/item3"
+            android:title="@string/my_blog"/>
+        <item
+            android:id="@+id/nav_more"
+            android:icon="@mipmap/item4"
+            android:title="@string/more_wonderful"/>
+        <item
+            android:id="@+id/nav_girl"
+            android:icon="@mipmap/item5"
+            android:title="@string/more_girl"/>
+    </group>
+
+    <item android:title="@string/tv_other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/item6"
+                android:title="@string/tv_share"/>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/item7"
+                android:title="@string/action_settings"/>
+
+        </menu>
+    </item>
+
+</menu>

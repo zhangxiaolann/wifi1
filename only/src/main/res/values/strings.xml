@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Only</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="tv_my_name">刘某人程序员</string>
+    <string name="tv_my_phone">18679606764</string>
+    <string name="tv_my_email">748778890@qq.com</string>
+    <string name="tv_my_blog">http://blog.csdn.net/qq_26787115</string>
+    <string name="tv_my_github">https://github.com/LiuGuiLinAndroid</string>
+
+    <string name="my_blog">我的博客</string>
+    <string name="my_github">我的GitHub</string>
+    <string name="my_user">我的信息</string>
+
+    <string name="toutiao_news">头条资讯</string>
+    <string name="wechat_select">微信精选</string>
+    <string name="more_wonderful">更多精彩</string>
+    <string name="more_girl">多图慎入</string>
+
+    <string name="tv_share">分享</string>
+
+    <string name="tv_other">其他</string>
+    <string name="tv_map">地图</string>
+
+    <string name="select_city">选择城市</string>
+    <string name="hot_city">热门城市</string>
+    <string name="located_city">定位城市</string>
+    <string name="hint_search_box">请输入城市名或拼音</string>
+    <string name="nothing_found">没有搜索结果~</string>
+    <string name="locating">正在定位…</string>
+    <string name="located_failed">定位失败</string>
+
+    <string name="tv_more">更多精彩</string>
+    <string name="tv_road">路况</string>
+    <string name="tv_navigation">导航</string>
+    <string name="tv_surrounding">周边</string>
+
+
+    <!--外圈12-->
+    <string name="item_1">话费直冲</string>
+    <string name="item_2">游戏直冲</string>
+    <string name="item_3">加油卡</string>
+    <string name="item_4">流量充值</string>
+    <string name="item_5">社保缴纳</string>
+    <string name="item_6">宽带续费</string>
+    <string name="item_7">苹果充值</string>
+    <string name="item_8">周工解梦</string>
+    <string name="item_9">归属地查询</string>
+    <string name="item_10">IP查询</string>
+    <string name="item_11">邮编查询</string>
+    <string name="item_12">快递查询</string>
+
+    <!--内圈6-->
+    <string name="item_13">测试吉凶</string>
+    <string name="item_14">身份证查询</string>
+    <string name="item_15">万年历</string>
+    <string name="item_16">微信精选</string>
+    <string name="item_17">笑话大全</string>
+    <string name="item_18">关于作者</string>
+
+
+
+</resources>

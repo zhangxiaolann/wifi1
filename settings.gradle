@@ -1,0 +1,1 @@
+include ':app', ':wifi测试', ':茄子快传', 'libzxing', ':only'
