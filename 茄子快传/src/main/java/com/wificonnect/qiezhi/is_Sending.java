@@ -47,6 +47,7 @@ public class is_Sending extends Activity implements View.OnClickListener {
 
 
     private void assignViews() {
+
         research_button = (Button) findViewById(R.id.research_button);
         research_button.setOnClickListener(this);
         View title = findViewById(R.id.title);
