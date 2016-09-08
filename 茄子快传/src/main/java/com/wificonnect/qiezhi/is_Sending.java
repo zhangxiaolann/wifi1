@@ -98,6 +98,7 @@ public class is_Sending extends Activity implements View.OnClickListener {
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             if (msg.what == 1) {
+
                 //连接上了设备后将connected设置为true，并更新界面提示连接成功，显示发送按钮
                 SharedPreferences.Editor editor = getSharedPreferences("judge",
                         MODE_PRIVATE).edit();
